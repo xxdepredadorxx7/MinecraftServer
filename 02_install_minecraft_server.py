@@ -238,6 +238,7 @@ class MinecraftServerInstaller:
             
             process = subprocess.Popen(
                 self.java_args,
+                stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT,
                 universal_newlines=True,
