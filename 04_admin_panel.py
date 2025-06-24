@@ -1118,10 +1118,26 @@ class MinecraftServerManager:
             elif choice == "4":
                 # Ejecutar configurador de ZeroTier
                 try:
-                    subprocess.run([sys.executable, str(self.server_dir / "zerotier_setup.py")], cwd=self.server_dir)
+                    # Verificar si existe el script de PowerShell (recomendado)
+                    ps_script = self.server_dir / "configurar_zerotier.ps1"
+                    if ps_script.exists():
+                        console.print("🚀 Abriendo configurador de ZeroTier...", style="yellow")
+                        subprocess.run([
+                            "powershell", "-ExecutionPolicy", "Bypass", 
+                            "-Command", f"Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -File `\"{ps_script}`\"' -Verb RunAs"
+                        ], cwd=self.server_dir)
+                        console.print("✅ Configurador abierto en una nueva ventana", style="green")
+                    else:
+                        # Fallback al script de Python
+                        py_script = self.server_dir / "03_zerotier_setup.py"
+                        if py_script.exists():
+                            subprocess.run([sys.executable, str(py_script)], cwd=self.server_dir)
+                        else:
+                            console.print("❌ No se encontraron los scripts de configuración de ZeroTier", style="red")
+                            console.print("📝 Ejecuta manualmente: configurar_zerotier.ps1", style="yellow")
                 except Exception as e:
                     console.print(f"❌ Error ejecutando configurador ZeroTier: {e}", style="red")
-                    Prompt.ask("Presiona Enter para continuar")
+                Prompt.ask("Presiona Enter para continuar")
             
             elif choice == "5":
                 # Implementar salida de ZeroTier
