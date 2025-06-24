@@ -1,0 +1,2 @@
+# EULA aceptado automáticamente por el instalador
+eula=true

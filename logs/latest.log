@@ -1,0 +1,40 @@
+[16:34:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:34:18] [ServerMain/INFO]: Loaded 1407 recipes
+[16:34:18] [ServerMain/INFO]: Loaded 1520 advancements
+[16:34:18] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[16:34:18] [Server thread/INFO]: Loading properties
+[16:34:18] [Server thread/INFO]: Default game type: SURVIVAL
+[16:34:18] [Server thread/INFO]: Generating keypair
+[16:34:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:34:18] [Server thread/INFO]: Using default channel type
+[16:34:18] [Server thread/INFO]: Preparing level "world"
+[16:34:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:34:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:34:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:34:19] [Server thread/INFO]: Time elapsed: 860 ms
+[16:34:19] [Server thread/INFO]: Done (1.188s)! For help, type "help"
+[16:34:20] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:34:20] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:35:19] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:35:22] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:35:40] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:35:49] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:02] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:11] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:16] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:17] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:18] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:20] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:21] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:22] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:36:29] [Server thread/INFO]: Stopping the server
+[16:36:29] [Server thread/INFO]: Stopping server
+[16:36:29] [Server thread/INFO]: Saving players
+[16:36:29] [Server thread/INFO]: Saving worlds
+[16:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:36:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:36:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:36:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:36:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:36:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
